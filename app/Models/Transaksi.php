@@ -10,4 +10,5 @@ class Transaksi extends Model
     use HasFactory;
     protected $table = 'transaksi';
     protected $guarded = ['_token', 'simpan'];
+    protected $primaryKey = 'id_transaksi';
 }

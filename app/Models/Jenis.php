@@ -10,4 +10,5 @@ class Jenis extends Model
     use HasFactory;
     protected $table = 'jenis';
     protected $guarded = ['_token', 'simpan'];
+    protected $primaryKey = 'id_jenis';
 }
